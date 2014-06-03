@@ -1,0 +1,68 @@
+#!/bin/sh
+
+DIR=/var/www/home/py
+DAEMON=$DIR/gearman-worker.py
+PIDFILE=/var/run/rs485.pid
+#not implemented
+#DAEMON_USER=sergey
+DAEMON_OPTS=
+DAEMON_NAME=RS485
+
+
+# Source function library.
+. /etc/init.d/functions
+
+#echo $PIDFILE
+#exit 0
+
+start () {
+        cd $DIR
+        echo -n "Starting $DAEMON_NAME... "
+#        runuser -s /bin/bash $DAEMON_USER -c "$DAEMON $DAEMON_OPTS &"
+        $DAEMON $DAEMON_OPTS &
+        PID=$!
+        if [ -z $PID ]; then
+            failure
+        else
+            echo $PID > $PIDFILE
+            success
+        fi
+        echo ""
+}
+
+stop () {
+        if [[ -s $PIDFILE ]] ; then
+            echo -n "Stopping $DAEMON_NAME... "
+            killproc -p $PIDFILE python
+#            echo "done!"
+            echo ""
+            rm -f $PIDFILE
+        else
+            echo "$DAEMON_NAME not running."
+        fi
+}
+
+check_status() {
+    status -p $PIDFILE python
+}
+
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    status)
+        check_status
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|restart|status}"
+        exit 1
+        ;;
+esac
