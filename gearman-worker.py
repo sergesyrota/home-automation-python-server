@@ -10,7 +10,7 @@ import daemon
 
 # sends a string to the bus, and returns the reply
 def task_listener_rs485(gearman_worker, gearman_job):
-    rs485 = serial.Serial('/dev/ttyUSB0', 9600, timeout=5)
+    rs485 = serial.Serial('/dev/ttyUSB0', 14400, timeout=2)
     rs485.write(gearman_job.data)
     res = rs485.readline()
     rs485.close()
