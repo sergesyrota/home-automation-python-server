@@ -16,7 +16,7 @@ def getTemperatureFromBench(command):
     if (res.startswith("ERROR")):
         raise Exception('Error polling Bench:' + command + ' ' + res)
     resVars = urlparse.parse_qs(res);
-    if (int(resVars['age'][0]) > 300):
+    if (int(resVars['age'][0]) > 300 or int(resVars['temp'][0]) > 700):
         return "U"
     # Result is in tenth of degrees celsius, so need to divide by 10 to get proper number
     return "%.1f" % (32+(float(resVars['temp'][0])*9/50))
