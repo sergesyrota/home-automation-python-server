@@ -35,13 +35,13 @@ if len(sys.argv) > 1 and sys.argv[1] == "config":
     print "watermain.label Crawlspace"
     print "watermain.warning 45:"
     print "watermain.critical 40:"
-    print "leah.label Leah Room"
+    print "masterbr.label Master Bedroom"
     print "parents.label Guest Bedroom"
     exit(0)
 
 try:
     print 'watermain.value ' + getTemperature('WtrMn', 'getTemp')
-    print 'leah.value ' + getTemperatureFromBench('getSens1')
+    print 'masterbr.value ' + getTemperatureFromBench('getSens1')
     print 'parents.value ' + getTemperatureFromBench('getSens2')
 except Exception as e:
     print >> sys.stderr, e
