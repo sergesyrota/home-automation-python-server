@@ -15,7 +15,7 @@ def getData(address, sensorId):
     p = re.compile('(\d+)s ago: ([0-9a-fA-F]{14})')
     res = p.search(text).groups()
     if (int(res[0]) > 1800):
-        raise soilException("Result too old (%d seconds); Discarding" % res[1])
+        raise soilException("Result too old (%d seconds); Discarding" % int(res[0]))
     # byte sensor ID
     # 16-bit unsigned number: soil moisture
     # 16-bit unsigned number: internal leak sensor

@@ -16,12 +16,19 @@ if len(sys.argv) > 1 and sys.argv[1] == "config":
     print "graph_category sensors"
     print "graph_info Leak sensor inside the bottle to make sure we don't have any issues"
     print "graph_vlabel Probe leak sensor"
-    print "rf1sen0.label Raised Flower Bed 1"
+    print "rf1sen0.label Raised Flower Bed 0"
+    print "rf1sen1.label Raised Flower Bed 1"
     exit(0)
 
-try:
-    data = soil_sensors.getData('RfReceiver1', 0)
-    print 'rf1sen0.value %d' % data['internalLeak']
-except Exception as e:
-    print >> sys.stderr, e
+problems = False
+for i in range(0,2):
+    try:
+        data = soil_sensors.getData('RfReceiver1', i)
+        print 'rf1sen%d.value %d' % (i, data['internalLeak'])
+    except Exception as e:
+        problems = True
+        print >> sys.stderr, "Error with sensor ID %d" % i
+        print >> sys.stderr, e
+
+if (problems):
     exit(1)
