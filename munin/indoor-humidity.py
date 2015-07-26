@@ -2,6 +2,7 @@
 
 import sys
 sys.path.insert(0, '/var/www/home/py/lib')
+import dht
 import rs485
 
 def getHumidity(device, command):
@@ -22,10 +23,13 @@ if len(sys.argv) > 1 and sys.argv[1] == "config":
     print "graph_info Shows humidity trends across the house"
     print "graph_vlabel %RH"
     print "watermain.label Crawlspace"
+    print "basement.label Basement LIV2-B2 (in ceiling)"
     exit(0)
 
 try:
     print 'watermain.value ' + getHumidity('WtrMn', 'getHumidity')
+    data = dht.getDht('Sprinkler1', 'getDht')
+    print 'basement.value ' + data['humidity']
 except Exception as e:
     print >> sys.stderr, e
     exit(1)
