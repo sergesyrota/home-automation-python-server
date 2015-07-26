@@ -31,8 +31,3 @@ for i in range(0,2):
         print 'rf1sen%d.value %.3f' % (i, data['batteryVoltage'])
     except Exception as e:
         problems = True
-        print >> sys.stderr, "Error with sensor ID %d" % i
-        print >> sys.stderr, e
-
-if (problems):
-    exit(1)
