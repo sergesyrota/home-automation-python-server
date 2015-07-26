@@ -5,7 +5,7 @@ sys.path.insert(0, '/var/www/home/py/lib')
 import nagios
 import subprocess
 
-timeRange = '6h'
+timeRange = '12h'
 filePath = '/var/lib/munin/local/srv1.local-water_meter-gph-d.rrd'
 
 # Take last {timeRange} of 5 minute readings (removing anything that does not start with timestamp),
