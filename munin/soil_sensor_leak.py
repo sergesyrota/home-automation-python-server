@@ -16,8 +16,8 @@ if len(sys.argv) > 1 and sys.argv[1] == "config":
     print "graph_category sensors"
     print "graph_info Leak sensor inside the bottle to make sure we don't have any issues"
     print "graph_vlabel Probe leak sensor"
-    print "rf1sen0.label Raised Flower Bed 0"
-    print "rf1sen1.label Raised Flower Bed 1"
+    print "rf1sen0.label Fern"
+    print "rf1sen1.label Raised Flower Bed"
     exit(0)
 
 problems = False

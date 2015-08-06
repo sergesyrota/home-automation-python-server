@@ -16,10 +16,10 @@ if len(sys.argv) > 1 and sys.argv[1] == "config":
     print "graph_category sensors"
     print "graph_info Soil moisture sensors around the yard, battery voltage."
     print "graph_vlabel Voltage in V"
-    print "rf1sen0.label Raised Flower Bed 0"
+    print "rf1sen0.label Fern"
     print "rf1sen0.warning 2.9:"
     print "rf1sen0.critical 2.4:"
-    print "rf1sen1.label Raised Flower Bed 1"
+    print "rf1sen1.label Raised Flower Bed"
     print "rf1sen1.warning 2.9:"
     print "rf1sen1.critical 2.4:"
     exit(0)
