@@ -27,12 +27,15 @@ if len(sys.argv) > 1 and sys.argv[1] == "config":
     print "watermain.warning 45:"
     print "watermain.critical 40:"
     print "basement.label Basement LIV2-B2 (in ceiling)"
+    print "utility.label Utility Room (by window)"
     exit(0)
 
 try:
     print 'watermain.value ' + getTemperature('WtrMn', 'getTemp')
     data = dht.getDht('Sprinkler1', 'getDht')
     print 'basement.value %d' % data['fahrenheit']
+    data = dht.getDht('Sprinkler2', 'getDht')
+    print 'utility.value %d' % data['fahrenheit']
 except Exception as e:
     print >> sys.stderr, e
     exit(1)
