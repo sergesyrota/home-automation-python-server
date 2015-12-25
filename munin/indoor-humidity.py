@@ -23,14 +23,14 @@ if len(sys.argv) > 1 and sys.argv[1] == "config":
     print "graph_info Shows humidity trends across the house"
     print "graph_vlabel %RH"
     print "watermain.label Crawlspace"
-    print "basement.label Basement LIV2-B2 (in ceiling)"
+    print "main_sink.label Under main kitchen sink"
     print "utility.label Utility Room (by window)"
     exit(0)
 
 try:
     print 'watermain.value ' + getHumidity('WtrMn', 'getHumidity')
     data = dht.getDht('Sprinkler1', 'getDht')
-    print 'basement.value ' + data['humidity']
+    print 'main_sink.value ' + data['humidity']
     data = dht.getDht('Sprinkler2', 'getDht')
     print 'utility.value ' + data['humidity']
 except Exception as e:
