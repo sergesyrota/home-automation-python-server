@@ -13,7 +13,7 @@ def getDht(device, command):
     if (int(res[2]) > 1800):
         raise dhtException("Result too old (%d seconds); Discarding" % int(res[0]))
     return {
-        'temperature': res[0],
+        'temperature': float(res[0]),
         'fahrenheit': (32+(float(res[0])*9/5)),
         'humidity': res[1],
         'age': res[2]
