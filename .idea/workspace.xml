@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d8faf56-8c85-4bec-a43d-ac73305c3983" name="Default" comment="" />
+    <ignored path="Python-worker.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Python-worker" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="water_leak_alert.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nagios/water_leak_alert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="-8.84" vertical-offset="0" max-vertical-offset="459">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indoor-temperature.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/munin/indoor-temperature.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="35" selection-start="1162" selection-end="1176" vertical-scroll-proportion="-24.08" vertical-offset="27" max-vertical-offset="782">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="motion_sensors.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/munin/motion_sensors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="0" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="697">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="soil_sensors.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/soil_sensors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="11" selection-start="208" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="578">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="soil_moisture.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/munin/soil_moisture.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="32" selection-start="557" selection-end="557" vertical-scroll-proportion="-12.92" vertical-offset="0" max-vertical-offset="595">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sprinkler-enabler.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sprinkler-enabler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="12" selection-start="807" selection-end="807" vertical-scroll-proportion="-12.24" vertical-offset="0" max-vertical-offset="459">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="soil_sensor_leak.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/munin/soil_sensor_leak.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="53" selection-start="292" selection-end="292" vertical-scroll-proportion="-8.84" vertical-offset="0" max-vertical-offset="595">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indoor-humidity.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/munin/indoor-humidity.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="4" selection-start="866" selection-end="907" vertical-scroll-proportion="-21.08" vertical-offset="0" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kitchen_main_sink_temperature.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nagios/kitchen_main_sink_temperature.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="25" selection-start="179" selection-end="180" vertical-scroll-proportion="0.20958903" vertical-offset="0" max-vertical-offset="730">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dht.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/dht.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="8" selection-start="416" selection-end="416" vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/hello.py" />
+        <option value="$PROJECT_DIR$/rs485-command.py" />
+        <option value="$PROJECT_DIR$/rs485.py" />
+        <option value="$PROJECT_DIR$/lib/nagios-include.py" />
+        <option value="$PROJECT_DIR$/lib/nagios.py" />
+        <option value="$PROJECT_DIR$/hello2.py" />
+        <option value="$PROJECT_DIR$/debug.py" />
+        <option value="$PROJECT_DIR$/munin/sump_level.py" />
+        <option value="$PROJECT_DIR$/runCommand.py" />
+        <option value="$PROJECT_DIR$/munin/sump_battery.py" />
+        <option value="$PROJECT_DIR$/nagios/sump_pump_alert.py" />
+        <option value="$PROJECT_DIR$/munin/sump_ac_cycles.py" />
+        <option value="$PROJECT_DIR$/munin/sump_ac_duty.py" />
+        <option value="$PROJECT_DIR$/lib/rs485.init.py" />
+        <option value="$PROJECT_DIR$/lib/rs485.init" />
+        <option value="$PROJECT_DIR$/nagios/notificationCommand.py" />
+        <option value="$PROJECT_DIR$/munin/water_meter.py" />
+        <option value="$PROJECT_DIR$/gearman-worker.py" />
+        <option value="$PROJECT_DIR$/munin/motion_sensors.py" />
+        <option value="$PROJECT_DIR$/lib/soil_sensors.py" />
+        <option value="$PROJECT_DIR$/munin/soil_moisture.py" />
+        <option value="$PROJECT_DIR$/lib/get_dht.py" />
+        <option value="$PROJECT_DIR$/munin/indoor-temperature.py" />
+        <option value="$PROJECT_DIR$/munin/indoor-humidity.py" />
+        <option value="$PROJECT_DIR$/munin/soil_sensor_leak.py" />
+        <option value="$PROJECT_DIR$/munin/soil_battery.py" />
+        <option value="$PROJECT_DIR$/sprinkler-enabler.py" />
+        <option value="$PROJECT_DIR$/lib/dht.py" />
+        <option value="$PROJECT_DIR$/nagios/kitchen_main_sink_check.py" />
+        <option value="$PROJECT_DIR$/nagios/water_leak_alert.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2572" />
+    <option name="height" value="1416" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home Automation Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home Automation Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python-worker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home Automation Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python-worker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nagios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home Automation Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python-worker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="munin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home Automation Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python-worker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dropbox\documents\hobbies\smart-home\Python-worker\nagios" />
+      <recent name="D:\documents\hobbies\smart-home\Python-worker\nagios" />
+      <recent name="D:\documents\hobbies\smart-home\Python-worker\munin" />
+      <recent name="D:\documents\hobbies\smart-home\Python-worker\lib" />
+      <recent name="D:\documents\hobbies\smart-home\Python-worker" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\documents\hobbies\smart-home\Python-worker\lib\" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.hello.py">
+    <configuration default="false" name="hello.py" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://home.syrota.com/py/hello.py">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python-worker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python-worker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python-worker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python-worker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python-worker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python-worker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python-worker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.hello.py" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.hello.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d8faf56-8c85-4bec-a43d-ac73305c3983" name="Default" comment="" />
+      <created>1399229937772</created>
+      <updated>1399229937772</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added rs485 init script">
+      <created>1401765567998</created>
+      <updated>1401765567998</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changed security of the alert email gateway, as security by obscurity is no security. Especially when you publish it on GitHub :P">
+      <created>1401851642886</created>
+      <updated>1401851642886</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Raising baud rate to a maximum that ceramic resonator can reliably support. Decreasing timeout to 2 seconds.">
+      <created>1402257815747</created>
+      <updated>1402257815747</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added water meter Munin plugin">
+      <created>1405997789955</created>
+      <updated>1405997789955</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated water meter Munin plugin to show Gallons per hour, instead of simple counter.">
+      <created>1407095296367</created>
+      <updated>1407095296367</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added indoor &quot;weather&quot; graphs to Munin (with just water main probe for now)">
+      <created>1415070523222</created>
+      <updated>1415070523222</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added 2 wireless probes to indoor weather graphs">
+      <created>1419389075632</created>
+      <updated>1419389075632</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added a safeguard that would classify too high values as unknown.">
+      <created>1419389186730</created>
+      <updated>1419389186730</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added motion sensor monitoring, and adjusted label for moved radio temperature sensor">
+      <created>1426397159614</created>
+      <updated>1426397159614</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added soil moisture sensor to munin monitoring.">
+      <created>1429800592500</created>
+      <updated>1429800592500</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fixed soil moisture polling: bug with too old data, all sensors' data got discarded if one was not received for a while.">
+      <created>1430087406937</created>
+      <updated>1430087406937</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Adding water leak monitor: looking at munin 5 minute averages over the past few hours and counting 0 readings.">
+      <created>1437795506148</created>
+      <updated>1437795506148</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adjusting soil sensors Munin logic to show graph for at least one, if one has too old data.">
+      <created>1437937020699</created>
+      <updated>1437937020699</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Adjusting water leak sensor to take last 12 hours, instead of 6, as it is too low of a window for 5 minute resolution.">
+      <created>1437937059894</created>
+      <updated>1437937059894</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Adding new temp&amp;humidity sensor to munin; adding dht module to reuse temperature parsing routines.">
+      <created>1437938480418</created>
+      <updated>1437938480418</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Increased water leak alert. Added one more humidity &amp; temp sensor in the utility room.">
+      <created>1438827590637</created>
+      <updated>1438827590637</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fixed labels on soil sensor data">
+      <created>1438827641662</created>
+      <updated>1438827641662</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2572" height="1416" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40244836" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1799687" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4091954" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40244836" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Added rs485 init script" />
+    <MESSAGE value="Changed security of the alert email gateway, as security by obscurity is no security. Especially when you publish it on GitHub :P" />
+    <MESSAGE value="Raising baud rate to a maximum that ceramic resonator can reliably support. Decreasing timeout to 2 seconds." />
+    <MESSAGE value="Added water meter Munin plugin" />
+    <MESSAGE value="Updated water meter Munin plugin to show Gallons per hour, instead of simple counter." />
+    <MESSAGE value="Added indoor &quot;weather&quot; graphs to Munin (with just water main probe for now)" />
+    <MESSAGE value="Added 2 wireless probes to indoor weather graphs" />
+    <MESSAGE value="Added a safeguard that would classify too high values as unknown." />
+    <MESSAGE value="Added motion sensor monitoring, and adjusted label for moved radio temperature sensor" />
+    <MESSAGE value="Added soil moisture sensor to munin monitoring." />
+    <MESSAGE value="Fixed soil moisture polling: bug with too old data, all sensors' data got discarded if one was not received for a while." />
+    <MESSAGE value="Adding water leak monitor: looking at munin 5 minute averages over the past few hours and counting 0 readings." />
+    <MESSAGE value="Adjusting soil sensors Munin logic to show graph for at least one, if one has too old data." />
+    <MESSAGE value="Adjusting water leak sensor to take last 12 hours, instead of 6, as it is too low of a window for 5 minute resolution." />
+    <MESSAGE value="Adding new temp&amp;humidity sensor to munin; adding dht module to reuse temperature parsing routines." />
+    <MESSAGE value="Increased water leak alert. Added one more humidity &amp; temp sensor in the utility room." />
+    <MESSAGE value="Fixed labels on soil sensor data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed labels on soil sensor data" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/nagios/sump_pump_alert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="53" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/nagios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="14" selection-start="54" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/rs485.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/rs485.init">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="12" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1241" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/munin/sump_battery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="38" selection-start="566" selection-end="635" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/munin/sump_ac_duty.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="34" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nagios/notificationCommand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="9" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runCommand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gearman-worker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/munin/sump_level.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="36" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nagios/sump_pump_alert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="53" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/nagios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="14" selection-start="54" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/rs485.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="32" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/munin/sump_battery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="38" selection-start="566" selection-end="635" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/munin/sump_ac_duty.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="34" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nagios/notificationCommand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="23" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runCommand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gearman-worker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="289" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/munin/sump_level.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nagios/sump_pump_alert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/nagios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="14" selection-start="54" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/munin/sump_battery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="10" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nagios/notificationCommand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="23" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runCommand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="42" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="323" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gearman-worker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="33" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/rs485.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="32" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/munin/sump_level.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="36" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/rs485.init">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="12" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nagios/sump_pump_alert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="53" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gearman-worker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="394" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/munin/sump_ac_duty.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="541" selection-end="579" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nagios/notificationCommand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="9" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runCommand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/nagios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="14" selection-start="54" selection-end="68" vertical-scroll-proportion="0.07971864" vertical-offset="0" max-vertical-offset="853" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/rs485.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="17" selection-start="638" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/munin/sump_battery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="38" selection-start="566" selection-end="635" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/munin/water_meter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="11" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/munin/motion_sensors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/soil_sensors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="11" selection-start="208" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/munin/soil_battery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="4" selection-start="657" selection-end="657" vertical-scroll-proportion="-15.64" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/munin/soil_sensor_leak.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="53" selection-start="292" selection-end="292" vertical-scroll-proportion="-8.84" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprinkler-enabler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="12" selection-start="807" selection-end="807" vertical-scroll-proportion="-12.24" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/munin/soil_moisture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="32" selection-start="557" selection-end="557" vertical-scroll-proportion="-12.92" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/munin/indoor-temperature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="35" selection-start="1162" selection-end="1176" vertical-scroll-proportion="-24.08" vertical-offset="27" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/munin/indoor-humidity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="4" selection-start="866" selection-end="907" vertical-scroll-proportion="-21.08" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nagios/water_leak_alert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="-8.84" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dht.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="8" selection-start="416" selection-end="416" vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nagios/kitchen_main_sink_temperature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="25" selection-start="179" selection-end="180" vertical-scroll-proportion="0.20958903" vertical-offset="0" max-vertical-offset="730">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
