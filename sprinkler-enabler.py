@@ -3,18 +3,34 @@
 import sys
 sys.path.insert(0, '/var/www/home/py/lib')
 import rs485
-import soil_sensors
+import urllib2
+from datetime import datetime, timedelta
+import time
+import json
 
-locations = {
-    'fern': {'moisture-address': 0, 'sprinklerDevice': 'Sprinkler1', 'sprinkler-valve': 0, 'thresholds': {700: 3*3600, 800: 2*3600}},
-    'raised-flower-bed':  {'moisture-address': 1, 'sprinklerDevice': 'Sprinkler2', 'sprinkler-valve': 0, 'thresholds': {850: 3*3600, 900: 2*3600, 950: 3600}}
-}
+baseUrl = 'https://api.forecast.io/forecast/%s/42.1160296,-87.9019692' % sys.argv[1]
 
-for name, details in locations.iteritems():
-    data = soil_sensors.getData('RfReceiver1', details['moisture-address'])
-    for moisture, duration in details['thresholds'].iteritems():
-        print 'Comparing sensor %d to threshold %d' % (data['soilMoisture'], moisture)
-        if (data['soilMoisture'] < moisture and data['soilMoisture'] > 300):
-            print 'Turning %s on for %d seconds, as moisture is under %d (%d)' % (name, duration, moisture, data['soilMoisture'])
-            rs485.command(details['sprinklerDevice'], "openValve%d:%d" % (details['sprinkler-valve'], duration))
-            break
+# check only every other day
+if (int(time.time())/(3600*24)%2 == 0):
+    print "Odd/Even check: skip today"
+    exit(0)
+
+# not enabling if it has rained in the past 2 days (not sure about the data, but just assuming over 50% = it has rained)
+for i in range(1,3):
+    target_date = datetime.now() - timedelta(days=i);
+    url = baseUrl + ',%d' % (int(time.time()) - (3600*24*i))
+    response = urllib2.urlopen(url)
+    data = json.loads(response.read())
+    if data['daily']['data'][0]['precipProbability'] > 0.5:
+        print "It rained in the past 2 days"
+        exit(0)
+
+# Not enabling if it'll rain today or tomorrow (50%+)
+response = urllib2.urlopen(baseUrl)
+data = json.loads(response.read())
+if data['daily']['data'][0]['precipProbability'] > 0.5 or data['daily']['data'][1]['precipProbability'] > 0.5:
+    print "It will rain soon"
+    exit(0)
+
+print "No rain, enabling sprinkler"
+rs485.command('Sprinkler2', "openValve0:7200")
