@@ -11,20 +11,20 @@ if len(sys.argv) > 1 and sys.argv[1] == "autoconf":
 
 
 if len(sys.argv) > 1 and sys.argv[1] == "config":
-    print "graph_title Sump Pit Water Level"
+    print "graph_title Sewage Basin Level"
     print "graph_args --base 1000"
-    print "graph_args --upper-limit 50"
+    print "graph_args --upper-limit 100"
     print "graph_args --lower-limit 0"
     print "graph_category sensors"
-    print "graph_info This shows water level in the sump pit of the basement"
+    print "graph_info This shows the level in sewage basin of the basement"
     print "graph_vlabel Distance in cm"
     print "level.label level"
-    print "level.warning 30"
-    print "level.critical 40"
+    print "level.warning 50"
+    print "level.critical 80"
     exit(0)
 
 try:
-    print 'level.value ' + rs485.command('SumpPump', 'getDistance')
+    print 'level.value %d' % (float(rs485.command('SewerMonitor', 'getDistance')))
 except Exception as e:
     print >> sys.stderr, e
     exit(1)

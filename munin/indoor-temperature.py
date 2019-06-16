@@ -32,8 +32,8 @@ if len(sys.argv) > 1 and sys.argv[1] == "config":
 
 try:
     print 'watermain.value ' + getTemperature('WtrMn', 'getTemp')
-    data = dht.getDht('Sprinkler1', 'getDht')
-    print 'main_sink.value %d' % data['fahrenheit']
+    #data = dht.getDht('Sprinkler1', 'getDht')
+    #print 'main_sink.value %d' % data['fahrenheit']
     data = dht.getDht('Sprinkler2', 'getDht')
     print 'utility.value %d' % data['fahrenheit']
 except Exception as e:
