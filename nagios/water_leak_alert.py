@@ -5,7 +5,7 @@ sys.path.insert(0, '/var/www/home/py/lib')
 import nagios
 import subprocess
 
-timeRange = '6h'
+timeRange = '24h'
 filePath = '/var/lib/munin/local/srv1.local-water_meter-gph-d.rrd'
 gphMultiplier = 19.02;
 maxZeroFlowGph = 0.15;
@@ -20,3 +20,4 @@ if (int(numberZeros) > 0):
 else:
     print 'No 5 minute sections with 0 readings in the last %s! Possible water leak!' % timeRange
     exit(nagios.STATE_CRITICAL)
+
